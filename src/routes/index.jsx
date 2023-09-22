@@ -3,6 +3,7 @@ import Home from '../pages/home';
 import Search from '../pages/search'
 import Collection from '../pages/collection'
 import Feed from '../pages/feed'
+import NotFound from "../pages/404";
 
 
 const routes = createBrowserRouter([
@@ -21,6 +22,10 @@ const routes = createBrowserRouter([
   {
     path: '/collection',
     element: <Collection />
+  },
+  {
+    path: '*',
+    element: <NotFound />
   }
 ])
 
