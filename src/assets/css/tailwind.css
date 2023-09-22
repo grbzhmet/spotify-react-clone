@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-black text-white p-2
+}
+
+
+/*
+
+sol sidebar = 420 px  8  12 px padding
+
+
+*/
